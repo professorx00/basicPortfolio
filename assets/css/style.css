@@ -21,7 +21,6 @@ html, body {
 
 .page-content {
     min-height: 100%;
-    /* same measurement as footer */
     margin-bottom: -50px;
     background-image: url("assets/imgs/bkTexture.png");
   }
