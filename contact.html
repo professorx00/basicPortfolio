@@ -1,37 +1,44 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>David Ward Profolio</title>
-        <meta name="description" content="web devolpement">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-    <body>
-        <header class="header">
-            <h1>David Ward</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">About Me </a></li>
-                    <li><a href="#">Portfolio </a></li>
-                    <li><a href="#">Contact </a></li>
-                </ul>
-            </nav>
-        </header>
-        <main class="content">
-            <h2>Portfolio</h2>
-            <hr/>
-            <form>
-                <h3>Name</h3><br>
-                <input type="text" name="name"><br>
-                <h3>E-Mail</h3><br>
-                <input type="text" name="email"><br>
-                <h3>Message</h3><br>
-                <textarea rows="10" cols="75">Please enter Message here</textarea>
-            </form>
-        </main>
-        <footer class="footer">
-            <h6>Copyright ©2019</h6>
-        </footer>
-    </body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>David Ward Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body class="sticky-footer-lesson">
+      <div class="header">
+          <div class="head">
+              <div class="branding"><h1>David Ward</h1></div>
+              <div class="navBar">
+                    <ul>
+                        <li>About Me </li><img src="assets/imgs/line.png" alt="seperator" />
+                        <li>Portfolio </li><img src="assets/imgs/line.png" alt="seperator" />
+                        <li>Contact</li>
+                    </ul>
+              </div>
+          </div>
+          
+      </div>
+      <div class="page-content">
+        <div class="sandbox">
+          <div class="content">
+                <h2>Contact </h2>
+                <div class="line"><hr></div>
+                <div class="me">
+                    <form>
+                        Name:<br><input type='text' name="name" placeholder="John Smith"><br>
+                        E-mail:<br><input type='text' name="email" placeholder="Example@example.com"><br>
+                        Message:<br><textarea name="message" class="message">Please Enter a Message for me here.</textarea><br>
+                        <input type="submit">
+                    </form>
+                </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footerText">Copyright 2019</div>
+      </footer>
+
+  </body>
 </html>
