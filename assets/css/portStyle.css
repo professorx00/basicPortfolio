@@ -28,23 +28,25 @@ html, body {
 
 .content img{
     width: 200px;
-    float:left;
     padding: .5em;   
 }
+
 .me{
   padding:1em;
   color:#666666;
 }
-
 .content{
-  margin-left: 12%;
-  margin-right: 12%;
-  margin-top: 20px;
-  background-color: #ffffff;
-  border-color: #dddddd;
-  border-width: 5px;
-  border-style: groove;
-}
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-width: 5px;
+    border-style: groove;
+    min-height:100%;
+  }
+
+
 
 .line{
   margin-left: 20px;
@@ -56,10 +58,11 @@ html, body {
     padding-bottom: 0;
     color: #4aaaa5;
     font-size: 30px;
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px 0px 20px;
   }
 
   .header{
+    z-index: 999;
     background-color: #ffffff;
     position: fixed;
     top: 0;
@@ -117,3 +120,29 @@ html, body {
   footer, .page-content::after {
     height: 50px;  
   }
+
+
+  .box{
+    width: 200px;
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.box .text{
+    position: absolute;
+    z-index: 998;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 60%; /* Adjust this value to move the positioned div up and down */
+    background: rgba(74, 170, 165, 0.8);
+    font-family: Arial,sans-serif;
+    color: #fff;
+    width: 60%; /* Set the width of the positioned div */
+    font-size: 12px;
+}
+.imagesPort{
+  padding-left: 4%;
+  padding-right:4%;
+}
+
