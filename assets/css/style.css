@@ -127,10 +127,11 @@ div.foo{
   width: 960px;
   background-image: url("assets/imgs/bkTexturegreen.png");
   overflow: auto;
-  padding-bottom: -100px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
+  margin-bottom:60px;
+
   }
 
 #content{
@@ -187,4 +188,8 @@ div.foo{
   color: #fff;
   width: 60%; 
   font-size: 12px;
+}
+#picbox{
+  display: grid;
+  grid-template: 1fr 1fr 1fr;
 }
