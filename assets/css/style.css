@@ -188,3 +188,7 @@ div.foo{
   width: 60%; 
   font-size: 12px;
 }
+#picbox{
+  display: grid;
+  grid-template: 1fr 1fr 1fr;
+}
