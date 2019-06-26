@@ -125,10 +125,11 @@ div.foo{
 #main{
   width: 960px;
   overflow: auto;
-  padding-bottom: -100px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
+  margin-bottom:60px;
+
   }
 
 #content{
@@ -190,6 +191,7 @@ p{
   width: 60%; 
   font-size: 12px;
 }
+<<<<<<< HEAD
 h2{
   font-size: 30px;
 }
@@ -199,4 +201,9 @@ hr{
 img{
   border: solid 2px #9E8881;
   margin: 10px;
+=======
+#picbox{
+  display: grid;
+  grid-template: 1fr 1fr 1fr;
+>>>>>>> fdced9aa10d90aaa782a75f4860233c554cc0fe6
 }
