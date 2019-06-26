@@ -23,7 +23,7 @@ html,body{
   
 #banner a:hover {
     text-decoration: none;
-    color: #00B4F1;
+    color: #4E5659;
   }
   
 #banner a:active {
@@ -39,7 +39,7 @@ div.foo{
   font-size: 2.5em;
   margin: 0.00em;
   position: relative;
-  color: #00B4F1;
+  color: #9E8881;
   transform-style: preserve-3d;
   perspective: 400;
   z-index: 1;
@@ -91,30 +91,29 @@ div.foo{
 
 
 #container{
-  background-image: url("assets/imgs/bkTexturegreen.png");
-  background-color: rgba(87,167,115,0.4);
+  background-color: #C38D81;
   min-height: 100%;
   padding-bottom: -100px;
 
 }
 #head{
-  background-color:#57A773;
+  background-color:#939790;
   height: 100px;
-  border-bottom-color:#00B4F1;
+  border-bottom-color:#9E8881;
   border-bottom-style: groove;
   border-bottom-width: 10px;
 }
 #banner{
   width: 960px;
   height: 100px;
-  background-color:#57A773;
+  background-color:#939790;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
   align-items: center;
-  border-bottom-color:#00B4F1;
+  border-bottom-color:#9E8881;
   border-bottom-style: groove;
   border-bottom-width: 10px;
 }
@@ -125,7 +124,6 @@ div.foo{
 }
 #main{
   width: 960px;
-  background-image: url("assets/imgs/bkTexturegreen.png");
   overflow: auto;
   padding-bottom: -100px;
   margin-left: auto;
@@ -134,14 +132,14 @@ div.foo{
   }
 
 #content{
-  background-color: #ABC4AB;
+  background-color: #FBFBFA;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 30px;
   margin-bottom: 60px;
-  color: #484D6D;
-  border-color: #00B4F1;
+  color: #4E5659;
+  border-color: #939790;
   border-width: 6px;
   border-style: groove;
 }
@@ -155,9 +153,13 @@ div.foo{
   padding-top: 10px;
   padding-bottom: 30px;
 }
+p{
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
 /* Foot that will allow for copyright centered and bottom*/
 #footer{
-  background-color: #484D6D;
+  background-color: #9E8881;
   position: relative;
   height:100px;
   margin-top: -100px;
@@ -165,7 +167,7 @@ div.foo{
   display:flex;
   justify-content:center;
   align-items:flex-end;
-  border-top-color:#00B4F1;
+  border-top-color:#9E8881;
   border-top-style: groove;
   border-top-width: 10px;  
 }
@@ -187,4 +189,14 @@ div.foo{
   color: #fff;
   width: 60%; 
   font-size: 12px;
+}
+h2{
+  font-size: 30px;
+}
+hr{
+  margin: 10px 10px;
+}
+img{
+  border: solid 2px #9E8881;
+  margin: 10px;
 }
