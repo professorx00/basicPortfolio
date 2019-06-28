@@ -18,6 +18,7 @@ html,body{
   font-size: 16px;
   
 }
+
 h2{
   font-size: 30px;
   font-style: initial;
@@ -31,23 +32,23 @@ img{
 }
 /*Header Specific Adjustments*/
 
-.banner a:link {
+div.banner a:link {
     text-decoration: none;
     color: #D1e8e2;
   }
   
-.banner a:visited {
+div.banner a:visited {
     text-decoration: none;
     color: #D1e8e2;
   }
   
-.banner a:hover {
+div.banner a:hover {
     text-decoration: None;
     font-style: italic;
     color: #d9b08c;
   }
   
-.banner a:active {
+div.banner a:active {
     text-decoration: none;
     color: #ffcb9a;
   }
@@ -83,11 +84,13 @@ img{
   width: 960px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
+  padding: 20px;
   background-color: #d1e8e2;
   border-color: #939790;
   border-width: 6px;
   border-style: groove;
-  margin-top: 30px;
+ 
   }
 
 .content{
@@ -194,22 +197,56 @@ div.picbox{
   grid-template-columns: auto auto auto;
   padding: 10px;
 }
+
 .box{
   width: 250px;
   position: relative;
   display: inline-block;
+  padding: 5px;
+  margin: 0px 5px;
+  align-content: center;
+  justify-content: space-between;
+  height: 100%;
 }
-.box .text{
+
+div.box img{
+  width: 250px;
+  height:200px;
+  margin: 5px;
+  padding:0px;
+}
+
+.text{
+  width: 200px;
   position: absolute;
   z-index: 998;
-  margin: 0 auto;
-  left: 0;
-  right: 2%;        
+  margin: 0;
+  left: 25px;
+  right: 0;
+  bottom: 10%;       
   text-align: center;
-  top: 60%; 
   background: rgba(74, 170, 165, 0.8);
   font-family: Arial,sans-serif;
   color: #fff;
-  width: 60%; 
   font-size: 12px;
+}
+div.text a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+div.text a:visited {
+  text-decoration: none;
+  color: #eee;
+}
+
+div.text a:hover {
+  text-decoration: None;
+  font-style: italic;
+  color: #d9b08c;
+}
+
+div.text a:active {
+  text-decoration: none;
+  color: #4E5659;
 }
